@@ -94,7 +94,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
 const action_t PROGMEM fn_actions[] = {
     [0] = ACTION_LAYER_TOGGLE(1),
     [1] = ACTION_MODS_KEY(MOD_LSFT, KC_GRV),    // tilde
-    [2] = ACTION_MACRO(0), // will print 'hello' for example
+    [2] = ACTION_MACRO(0), // console.log();
     [3] = ACTION_MACRO(1), // lock the computer
     [4] = ACTION_MACRO(2), // undo
     [5] = ACTION_MACRO(3), // select all
